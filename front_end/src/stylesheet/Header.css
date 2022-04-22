@@ -1,0 +1,33 @@
+.header-container {
+    width: 100%;
+    justify-content: end;
+    display: flex;
+    padding: 25px 80px;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    border: 0px solid hsl(240, 45%, 69%);
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+    color: #1b1b32;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.button-connect:hover {
+    background-color: #709cfd;
+}
+
+.button-deactivate:hover {
+    background-color: #c3c7d1;
+}

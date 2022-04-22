@@ -1,0 +1,4 @@
+.main-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+}
